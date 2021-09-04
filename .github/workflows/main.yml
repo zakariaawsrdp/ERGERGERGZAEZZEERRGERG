@@ -25,7 +25,7 @@ jobs:
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/zakariaawsrdp/ERGERGERGZAEZZEERRGERG/main/NGROK-US.bat -OutFile NGROK-US.bat
         Invoke-WebRequest https://raw.githubusercontent.com/zakariaawsrdp/ERGERGERGZAEZZEERRGERG/main/NGROK-CHECK.bat -OutFile NGROK-CHECK.bat
-        Invoke-WebRequest https://raw.githubusercontent.comzakariaawsrdp/ERGERGERGZAEZZEERRGERG/main/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/zakariaawsrdp/ERGERGERGZAEZZEERRGERG/main/loop.bat -OutFile loop.bat
     - name: Make YML file for NGROK.
       run: start NGROK-US.bat
     - name: Enable RDP Access.
